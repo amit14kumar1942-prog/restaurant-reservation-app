@@ -14,8 +14,8 @@
     "strict": false,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "noFallthroughCasesInSwitch": true,
-    "types": ["vite/client"]
+    "noImplicitAny": false,
+    "noFallthroughCasesInSwitch": true
   },
   "include": ["src"]
 }
