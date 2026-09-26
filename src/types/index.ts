@@ -20,7 +20,7 @@ export interface Reservation {
   date: string;
   time: string;
   guests: number;
-  seatingArea: 'Main Dining Hall' | 'Private Wine Cellar Vault' | 'Chef's Counter' | 'Rooftop Terrace';
+  seatingArea: 'Main Dining Hall' | 'Private Wine Cellar Vault' | "Chef's Counter" | 'Rooftop Terrace';
   specialRequests?: string;
   depositAmountUSD: number;
   status: 'Confirmed' | 'Pending' | 'Cancelled';
